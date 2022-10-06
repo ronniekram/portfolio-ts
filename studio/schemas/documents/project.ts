@@ -13,6 +13,16 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      validation: (Rule) => Rule.required(),
+      options: {
+        soure: "name",
+        slugify: (input) => input.toLowerCase().replace(/\s+/g, "-")
+      },
+    },
+    {
       name: "thumbnail",
       title: "Thumbnail",
       type: "thumbnail",
