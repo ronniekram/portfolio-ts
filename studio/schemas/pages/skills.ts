@@ -5,6 +5,7 @@ export default {
   title: "Skills",
   type: "document",
   icon: GiSkills,
+  __experimental_actions: [/*'create',*/ "update", /*'delete',*/ "publish"],
   fields: [
     {
       name: "languages",

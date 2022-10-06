@@ -5,6 +5,7 @@ export default {
   title: "About Page",
   type: "document",
   icon: BsInfoCircle,
+  __experimental_actions: [/*'create',*/ "update", /*'delete',*/ "publish"],
   fields: [
     {
       name: "media",
