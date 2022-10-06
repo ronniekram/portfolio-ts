@@ -5,12 +5,16 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // PAGES
+import about from "./pages/about";
+import contact from "./pages/contact";
+import skills from "./pages/skills";
 // DOCUMENTS
 import project from "./documents/project";
 // OBJECTS
 import lighthouse from "./objects/lighthouse";
 import links from "./objects/links";
 import screenshot from "./objects/screenshot";
+import social from "./objects/social";
 import thumbnail from "./objects/thumbnail";
 
 
@@ -22,10 +26,14 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     /* Your types here! */
+    about,
+    contact,
+    skills,
     project,
     lighthouse,
     links,
     screenshot,
+    social,
     thumbnail,
   ]),
 })
