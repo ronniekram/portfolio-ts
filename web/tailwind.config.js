@@ -1,6 +1,6 @@
 module.exports = {
   theme: {
-    color: {
+    colors: {
       purple: {
         light: `#B573BE`,
         mid: `#7C3091`,

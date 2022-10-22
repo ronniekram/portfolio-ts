@@ -1,8 +1,9 @@
+import React from "react";
 import type { AppProps } from "next/app";
 import { cache } from "@emotion/css";
 import { CacheProvider } from "@emotion/react";
 
-import GlobalStyles from "../styles/global-styles";
+import { GlobalStyles } from "twin.macro";
 import "../public/fonts/hack/hack.css";
 
 /**

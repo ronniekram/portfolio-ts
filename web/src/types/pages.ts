@@ -5,7 +5,6 @@ export type AboutProps = {
 };
 
 export type SocialProps = {
-  name: string;
   title: string;
   type: string;
   href: string;
