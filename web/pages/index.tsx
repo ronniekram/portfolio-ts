@@ -13,12 +13,12 @@ const Home: NextPage = () => {
       </Head>
       <div tw="w-screen h-screen bg-purple-light flex justify-center items-center font-hack font-bold text-black text-center px-8">
         <div>
-          <div tw="w-[fit-content] mx-auto mb-8">
+          <div tw="w-[fit-content] mx-auto mb-4">
             {/* LOGO GOES HERE  */}
             <Logo />
           </div>
-          <h1 tw="text-4xl md:(text-5xl) mb-6">Coming soon!</h1>
-          <h2 tw="text-xl md:(text-2xl)">See ya then!</h2>
+          <h2 tw="text-sm mb-3 font-normal">pgh, pa based front end developer</h2>
+          <h1 tw="text-4xl md:(text-5xl) mb-6">See yinz soon!</h1>
         </div>
       </div>
     </>
