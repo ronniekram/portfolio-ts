@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.19.0",
     "@emotion/css": "^11.10.0",
     "@emotion/react": "^11.10.4",
     "@emotion/server": "^11.10.0",
     "@emotion/styled": "^11.10.4",
     "@portabletext/react": "^1.0.6",
+    "@react-spring/web": "^9.5.5",
+    "@svgr/webpack": "^6.5.0",
     "next": "12.3.1",
     "next-sanity": "^1.0.0",
     "next-seo": "^5.8.0",

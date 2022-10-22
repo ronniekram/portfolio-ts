@@ -1,3 +1,4 @@
+import React from "react";
 import type { AppProps } from "next/app";
 import { cache } from "@emotion/css";
 import { CacheProvider } from "@emotion/react";
