@@ -7,7 +7,7 @@ import { extractCritical } from "@emotion/server";
  * https://github.com/ben-rogerson/twin.examples/tree/master/next-emotion
  * "Without this step, you’ll notice a difference between the SSR generated styles and the ones that hydrate on the client side."
  */
-export default class MyDocument extends Document {
+class MyDocument extends Document {
   static async getInitialProps(ctx: any) {
     const initialProps = await Document.getInitialProps(ctx);
     const critical = extractCritical(initialProps.html);
@@ -23,11 +23,11 @@ export default class MyDocument extends Document {
     );
 
     return initialProps;
-  }
+  };
 
   render() {
     return (
-      <Html lang="en">
+      <Html>
         <Head />
         <body>
           <Main />
@@ -36,4 +36,6 @@ export default class MyDocument extends Document {
       </Html>
     );
   }
-}
+};
+
+export default MyDocument;
