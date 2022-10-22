@@ -3,6 +3,7 @@ import { cache } from "@emotion/css";
 import { CacheProvider } from "@emotion/react";
 
 import GlobalStyles from "../styles/global-styles";
+import "../public/fonts/hack/hack.css";
 
 /**
  * Usage of Emotion CacheProvider pulled from Twin.Macro documentation and example
