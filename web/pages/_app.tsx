@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
         <link rel="manifest" href="/favicons/site.webmanifest" />
       </Head>
-      <div tw="antialiased">
+      <div tw="antialiased font-hack">
         <CacheProvider value={cache}>
           <GlobalStyles />
           <Component {...pageProps} />
