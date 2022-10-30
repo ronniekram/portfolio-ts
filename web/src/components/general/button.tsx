@@ -18,8 +18,8 @@ export type ButtonProps = {
 //! ----------> STYLES <----------
 const buttonStyles = [
   tw`transition duration-500 ease-in-out`,
-  tw`px-8 py-2 border border-black`,
-  tw`text-white text-xs bg-purple-mid`,
+  tw`px-8 py-1 border border-black`,
+  tw`text-white text-sm font-bold bg-purple-mid`,
   tw`hocus:(bg-purple-dark)`,
 ];
 
